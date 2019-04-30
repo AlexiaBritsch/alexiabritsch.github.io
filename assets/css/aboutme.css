@@ -1,0 +1,224 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #F8F4F4;
+  font-family: 'Lora', serif;
+}
+
+#about {
+  position: relative;
+  left: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+}
+#ball {
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #EF8A8A;
+    z-index: 1;
+    transform: translateY(-200px);
+}
+
+#shadow {
+    height: 25px;
+    width: 70px;
+    background: black;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+#ball, #shadow {
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+}
+
+
+@keyframes bounce {
+  0%  { transform: translateY(-20px)}
+  100% { transform: translateY(12px)}
+}
+
+@keyframes shadoww {
+  0% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.6;
+    transform: scale(0.5);
+  }
+}
+
+
+#ball {
+  animation-name: bounce;
+  animation-duration: 0.45s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.7, 0.5)
+}
+
+#shadow {
+  animation-name: shadoww;
+  animation-duration: 0.45s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.7, 0.5)
+}
+#content {
+  height: 100vh;
+  width: 60%;
+  margin: 0 auto;
+
+}
+
+.text {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.about{
+  line-height: 1.5;
+  font-size: 20px;
+}
+.animate{
+  width: 200px;
+    flex: none;
+}
+.item1 img, .item2 img{
+/* height: 400px; */
+width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.column1 {
+  /* margin-bottom: 30px; */
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50vw;
+
+}
+.column2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50vw;
+}
+.sidenav {
+ height: 100%;
+ width: 0;
+ position: fixed;
+ z-index: 1;
+ top: 0;
+ left: 0;
+ background-color: #111;
+ overflow-x: hidden;
+ transition: 0.5s;
+ padding-top: 60px;
+}
+
+.sidenav a {
+ padding: 8px 8px 8px 32px;
+ text-decoration: none;
+ font-size: 25px;
+ color: #818181;
+ display: block;
+ transition: 0.3s;
+}
+
+.sidenav a:hover {
+ color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+ position: absolute;
+ top: 0;
+ right: 25px;
+ font-size: 36px;
+ margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+ .sidenav {padding-top: 15px;}
+ .sidenav a {font-size: 18px;}
+}
+.menu{
+ font-size: 45px;
+ top: 0%;
+ right: 0%;
+ color: black;
+ text-decoration: none;
+ position: fixed;
+}
+ .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.menu {
+  font-size: 45px;
+  top: 0%;
+  right: 0%;
+  color: black;
+  text-decoration: none;
+  position: fixed;
+
+}
+.line{
+  display: block;
+  margin: 0 auto;
+}
+
+font-family: 'Lora', serif;
