@@ -19,6 +19,7 @@ body, html{
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  text-align: center;
 }
 
 .item1 img, .item2 img{
@@ -133,7 +134,7 @@ h1 {
 .menu{
   font-size: 45px;
   top: 0%;
-  right: 0%;
+  left: 10px;
   color: black;
   text-decoration: none;
   position: fixed;
