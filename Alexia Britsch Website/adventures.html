@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="assets/css/adventures.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	</head>
+	<body>
+    <a href="javascript:void(0)" onclick="openNav()" class= "menu">&#9776;</a>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="adventures.html">Adventures</a>
+      <a href="aboutme.html">About Me</a>
+    </div>
+  <div id="content">
+    <h1>Adventures</h1>
+    <img class=line src="assets/img/Rectangle 7.svg">
+		<div id="pictures">
+			<div class="column1">
+        <div class="item1" onclick="open1()"><img src="assets/img/12.jpg"></div>
+        <div class="blowup" id="blowup1" onclick="close1()"><img src="assets/img/12.jpg"></div>
+        <div id="about">
+					SF Women’s March 2019
+				</div>
+      </div>
+      <div class="column1">
+        <div class="item1" onclick="open2()"><img src="assets/img/13.jpg"></div>
+        <div class="blowup" id="blowup2" onclick="close2()"><img src="assets/img/13.jpg"></div>
+        <div id="about">
+					UCLA Botanical Gardens
+				</div>
+      </div>
+      <div class="column1">
+        <div class="item1" onclick="open3()"><img src="assets/img/14.jpg"></div>
+        <div class="blowup" id="blowup3" onclick="close3()"><img src="assets/img/14.jpg"></div>
+        <div id="about">
+					AFX Photoshoot
+				</div>
+			</div>
+			<div class="column1">
+				<div class="item1" onclick="open4()"><img src="assets/img/15.jpg"></div>
+        <div class="blowup" id="blowup4" onclick="close4()"><img src="assets/img/15.jpg"></div>
+        <div id="about">
+					UC Berkeley Rose Garden
+				</div>
+        </div>
+      <div class="column2">
+        <div class="item2" onclick="open5()"><img src="assets/img/16.jpeg"></div>
+        <div class="blowup" id="blowup5" onclick="close5()"><img src="assets/img/16.jpeg"></div>
+        <div id="about">
+					Halloween 2018
+				</div>
+			</div>
+			</div>
+	</body>
+  <script type="text/javascript" src="assets/scripts/adventures.js"></script>
+</html>
