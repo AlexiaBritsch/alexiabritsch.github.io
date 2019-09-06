@@ -3,61 +3,226 @@ body, html{
   padding: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #FFF;
-}
+  background-color: #f2d8d5;
+  font-style: italic;
+  color:#707070;
 
+
+}
 #content {
   display: flex;
-  flex-direction: row;
+  position: relative;
+  flex-direction: column;
   justify-content: center;
   height: 100vh;
+  background-color: #FFF;
+  box-shadow: 1px 1px;
 }
 
-#pictures {
-  position: relative;
-  left: -15%;
+#picture {
+  display: flex;
+  flex-direction: column;
+  top: 0%;
+
+
+
+
+
+}
+
+.column1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  left: 2%;
+  top: 28%;
+
 }
 
-.item1 img, .item2 img {
-height: 250px;
-width: 200px;
+.item1 img {
+height: 100%;
+width: 150%;
+
+
 }
 
-.item2 {
-  margin: 10%;
+.item1 {
+  margin-right: 10%;
 }
 
-#navbar{
+
+
+#navbar {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 4%;
+  left: 16%;
+
+}
+
+.navbarr-item {
+  margin-right: 12%;
+  height: 10%;
+  width: 8%;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  top: -40px;
-  font-family: 'Lora', serif;
+  text-align: center;
+  left: -12%;
+
+
+
+
 }
 
-.navbar-item{
-  margin-top: 10px ;
-}
 
-.column1 {
-  /* margin-bottom: 30px; */
-  margin-right: 10px;
-  height: 100vh;
+#navback {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.column2 {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 18%;
+  left: 5%;
+  height: 55%;
+  width: 90%;
+  background-color: #FFF;
+  box-shadow: 4px 4px grey;
+
 }
+
+#navbackk {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -32%;
+  left: 35%;
+
+
+}
+
+.navbarre-item {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -4%;
+}
+
+
+
+
+
+
+
+
+
+
+#navbarrr{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 37%;
+  left: 5%;
+  height: 55%;
+  width: 90%;
+  background-color: #FFF;
+  box-shadow: 4px 4px grey;
+
+
+
+}
+
+#oops {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -32%;
+  left: 35%;
+}
+
+.navbarrr-item {
+
+  margin-right: 12%;
+  height: 10%;
+  width: 8%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  left: -14%;
+
+
+}
+.navbarrre-item {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -6%;
+
+}
+
+
+#snekbar {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 57%;
+  left: 5%;
+  height: 55%;
+  width: 90%;
+  background-color: #FFF;
+  margin-bottom: 5%;
+  box-shadow: 4px 4px grey;
+
+
+
+}
+
+#rekt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -32%;
+  left: 29%;
+
+
+}
+.about {
+  margin-right: 7%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: left;
+  left: -13%;
+  top: 8%;
+
+
+
+}
+
+.aboutt {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -1%;
+}
+
 a:link {
   text-decoration: none;
   color: black;

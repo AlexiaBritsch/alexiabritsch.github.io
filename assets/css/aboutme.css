@@ -3,8 +3,9 @@ body, html{
   padding: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #FFF;
+  background-color: #f2d8d5;
   font-family: 'Lora', serif;
+  color: #707070;
 }
 
 #about {
@@ -22,7 +23,7 @@ body, html{
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background: #EF8A8A;
+    background: #CE3535;
     z-index: 1;
     transform: translateY(-200px);
 }
@@ -75,9 +76,18 @@ body, html{
   animation-timing-function: cubic-bezier(0.42, 0, 0.7, 0.5)
 }
 #content {
-  height: 100vh;
+  height: 90vh;
   width: 60%;
-  margin: 0 auto;
+  margin:  auto;
+  background-color: #FFFF;
+  box-shadow: 6px 6px grey;
+
+
+}
+
+#itemsa {
+  position:relative;
+  left: 20%
 
 }
 
@@ -88,11 +98,13 @@ body, html{
   justify-content: center;
   align-items: center;
   margin-top: 200px;
+  left: -2%;
 }
 
 .about{
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 18px;
+  left: 0%;
 }
 .animate{
   width: 200px;
@@ -103,9 +115,7 @@ body, html{
 width: 100%;
 }
 
-h1 {
-  text-align: center;
-}
+
 
 
 .column1 {
@@ -165,7 +175,7 @@ h1 {
  font-size: 45px;
  top: 0%;
  right: 0%;
- color: black;
+ color: #707070;
  text-decoration: none;
  position: fixed;
 }
@@ -176,7 +186,7 @@ h1 {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #FFF;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -211,14 +221,23 @@ h1 {
   font-size: 45px;
   top: 0%;
   left: 10px;
-  color: black;
+  color: #707070;
   text-decoration: none;
   position: fixed;
 
 }
-.line{
-  display: block;
-  margin: 0 auto;
-}
+
 
 font-family: 'Lora', serif;
+
+#itemsa {
+
+  margin-right: 7%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: left;
+  left: 15%;
+  top: 8%;
+
+}

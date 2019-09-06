@@ -3,13 +3,28 @@ body, html{
   padding: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #FFF;
+  background-color: #f2d8d5;
   font-family: 'Lora', serif;
+  color: #707070;
 }
 
 #content {
-  height: 100vh;
-  margin: 0 30px;
+  top: 0%;
+  height: 97vh;
+  width: 82%;
+  background-color: #FFF;
+  margin-left: 10%;
+  margin: auto;
+  box-shadow: 6px 6px;
+  margin-bottom: 5%;
+
+
+}
+
+#itemsa {
+  position:relative;
+  left: 26%;
+
 }
 
 #pictures {
@@ -18,8 +33,10 @@ body, html{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
+  top: 16%;
   text-align: center;
+  left: 5px;
+
 }
 
 .item1 img, .item2 img{
@@ -88,7 +105,7 @@ h1 {
  font-size: 45px;
  top: 0%;
  right: 0%;
- color: black;
+ color: #707070;
  text-decoration: none;
  position: fixed;
 }
@@ -99,17 +116,18 @@ h1 {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #FFF;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  color: #707070;
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #707070;
   display: block;
   transition: 0.3s;
 }
@@ -134,7 +152,7 @@ h1 {
   font-size: 45px;
   top: 0%;
   left: 10px;
-  color: black;
+  color: #707070;
   text-decoration: none;
   position: fixed;
 
@@ -157,9 +175,3 @@ h1 {
   height: 440px;
   width: 420px;
   object-fit: cover;
-
-}
-.line{
-  display: block;
-  margin: 0 auto;
-}
